@@ -1,0 +1,11 @@
+Here is the step by step guide solve tryhackme room named MD2PDF
+step 1: join room and start your attackbox and lab machine.
+step2: use nmap command 'nmap -sC -sV <target-ip>' to look for all ports and services.
+step 3:then open that website in your firefox browser or other in attack machine .
+step 4: type http://ip address of target machine.
+step 5: A window open in which you can type anythinf and can convert it into pdf
+#here is the catch ..the markdown take input anything it means we can even excute malicious code in it for example SSRF.
+step 6: try to insert some codes for example '<img src="http://localhost:5000/admin">' or '<object data="http://localhost:5000/admin"></object>'
+these codes help you to get admin acces and thats all 
+step 7: After writing the code convert it into pdf and a flag will appear on screen.
+thankyou 
